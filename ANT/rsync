@@ -1,0 +1,9 @@
+
+
+rsync -av --progress ~/Projects/PhD/SBCB/Membrane_Protein_Folding/ANT_extension/new_PMFs/site1/PME_pull/start_* . \
+  --exclude "*analysis*" \
+  --include "*/" --include "*.gro" --include "*.pdb" \
+  --include "*.itp" --include "*.top" \
+  --include "*.mdp" --include "*plumed*" \
+  --include "*.sh" --include "*.py"  \
+  --exclude "*" --prune-empty-dirs

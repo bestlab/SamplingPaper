@@ -1,0 +1,19 @@
+#include "martini_v2.1.itp"
+
+#define RUBBER_BANDS
+
+#include "Protein.itp"
+#include "martini_v2.0_lipids.itp"
+#include "martini_v2.0_ions.itp"
+
+
+[ system ]
+MIXED-LIPID
+
+[ molecules ]
+PROTEIN 1
+CARD 1
+POPC 279
+W 4212
+CL- 110
+NA+ 95

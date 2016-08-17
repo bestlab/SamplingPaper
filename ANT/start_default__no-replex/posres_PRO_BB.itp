@@ -1,0 +1,7 @@
+; position restraints for PRO_BB of MIXED-LIPID
+
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+  48    1        400        400          0
+ 292    1        400        400          0
+ 499    1        400        400          0

@@ -1,0 +1,20 @@
+
+
+; Include forcefield parameters
+#include "martini_v2.2.itp"
+#include "martini_v2.0_POPC_02.itp"
+#include "martini_v2.2_aminoacids.itp"
+
+#include "./Protein_A.itp"
+#include "./Protein_B.itp"
+
+[ system ]
+; Name
+TMs in DPPC bilayer
+
+[ molecules ]
+Protein_A	1
+Protein_B	1
+POPC	118
+W	1492
+

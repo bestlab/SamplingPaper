@@ -1,0 +1,15 @@
+#include "martini_v2.2.itp"
+#define RUBBER_BANDS
+
+#include "protein-cg.itp"
+
+[ system ]
+SELF-ASSEMBLY
+
+[ molecules ]
+Protein 1
+PIP2 4
+POPC 360
+W 6410
+NA+ 169
+CL- 165
